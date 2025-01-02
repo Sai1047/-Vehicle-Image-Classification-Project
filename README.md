@@ -1,7 +1,6 @@
 Vehicle Image Classification Report
-### push
 
-Introduction
+### Introduction
 
 Image classification has become an essential application of machine learning, enabling automation in fields such as transportation, security, and logistics. This project aims to classify images of vehicles into predefined categories: bus, car, motorcycle, and truck. By leveraging conventional machine learning and deep learning (CNN), we demonstrate the ability to train a model that can accurately classify vehicle types from images. Such a system has practical implications in traffic monitoring, autonomous driving, and fleet management.
 
@@ -14,7 +13,7 @@ The dataset used for this project contains vehicle images categorized into four 
 - **Augmentation Techniques**: Rotation, flipping, scaling
 - **Train-Validation Split**: 80%-20%
 
-Methodology
+### Methodology
 
 The project involved the following steps:
 
@@ -27,7 +26,7 @@ The project involved the following steps:
 
 3. **Evaluation**: The model's performance was evaluated using accuracy, precision, recall, and a confusion matrix on the validation set.
 
-Results and Discussion
+### Results and Discussion
 
 - **Conventional Techniques**: Achieved moderate accuracy (\~70%) due to the limited ability to extract complex features from images.
 - **CNN Model**:
@@ -38,7 +37,7 @@ The CNN model outperformed conventional techniques, demonstrating its ability to
 
 The confusion matrix revealed that the motorcycle class was most accurately predicted, while the bus class occasionally overlapped with the truck class due to similar shapes and features.
 
-Conclusion
+### Conclusion
 
 This project successfully demonstrated the use of CNNs for vehicle image classification. The model achieved high accuracy, proving its potential for real-world applications such as traffic monitoring and vehicle recognition. Future work could focus on expanding the dataset, fine-tuning the model, and integrating real-time classification capabilities for practical deployment.
 
